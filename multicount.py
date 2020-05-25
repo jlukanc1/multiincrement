@@ -15,7 +15,7 @@ class MultiCount():
 
     def foreground(self):
         draw = wasp.watch.drawable
-        wasp.system.request_event(wasp.EventMask.TOUCH)     #need to subscribe to event, look at foreground of testapp
+        wasp.system.request_event(wasp.EventMask.TOUCH) 
         wasp.watch.display.fill(0x0000)
         draw.string("-1:Tap", 0, 212, width=240)
         draw.string("+1:Tap", 0, 6, width=240)
