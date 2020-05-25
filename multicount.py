@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: LGPL-3.0-or-later
-# MultiCount by big mac
+# MultiCount by jlukanc1
 
 import wasp
 import icons
